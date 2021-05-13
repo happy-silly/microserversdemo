@@ -1,0 +1,7 @@
+BaseService.Host            55389
+AuthServer.Host             53362
+Business.Host                  51186
+FileStorage.Host             59958
+WebAppGateway.Host   62162
+
+VUE/APP                        9527

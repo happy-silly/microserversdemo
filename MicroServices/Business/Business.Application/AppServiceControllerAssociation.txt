@@ -1,0 +1,8 @@
+﻿Service方法名											HTTP方法			Route
+GetAsync(Guid id)										GET					/api/app/book/{id}
+GetListAsync()											GET					/api/app/book
+CreateAsync(CreateBookDto input)						POST				/api/app/book
+UpdateAsync(Guid id, UpdateBookDto input)				PUT					/api/app/book/{id}
+DeleteAsync(Guid id)									DELETE				/api/app/book/{id}
+GetEditorsAsync(Guid id)								GET					/api/app/book/{id}/editors
+CreateEditorAsync(Guid id, BookEditorCreateDto input)	POST				/api/app/book/{id}/editor

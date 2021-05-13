@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Business.Application</name>
+    </assembly>
+    <members>
+        <member name="T:Business.Services.Craft.CraftNodeListAppService">
+            <summary>
+            工艺节点
+            </summary>
+        </member>
+        <member name="M:Business.Services.Craft.CraftNodeListAppService.GetAllAsync">
+            <summary>
+            工艺节点查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Business.Services.Order.FactoryProgramRecordService">
+            <summary>
+            订单记录
+            </summary>
+        </member>
+        <member name="T:Business.Services.Order.OrderProgramRecordAppService">
+            <summary>
+            调度单记录
+            </summary>
+        </member>
+        <member name="T:Business.Services.BtMachineShiftReportAppService">
+            <summary>
+            并条班报
+            </summary>
+        </member>
+        <member name="T:Business.Services.LtMachineRttempAppService">
+            <summary>
+            络筒整车实时数据
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Business</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Business.Application.xml</DocumentationFile>
+    <OutputPath></OutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="4.0.0" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.HangFire" Version="4.0.0" />
+    <PackageReference Include="Volo.Abp.Http.Client.IdentityModel" Version="4.0.0" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi.Client" Version="4.0.0" />
+    <PackageReference Include="XCZ.FormManagement.Application" Version="1.4.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Application.Contracts\Business.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Business.Domain\Business.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Business.Application.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
